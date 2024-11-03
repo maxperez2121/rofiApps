@@ -1,0 +1,18 @@
+configuration {
+    modi: "drun,run,ssh,window";
+    columns: 1;
+    font: "MesloLGS NF Regular 14";
+    show-icons: true;
+/*	ssh-client: "ssh";*/
+/*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
+    sidebar-mode: true;
+    hide-scrollbar: false;
+    kb-mode-previous: "Alt+h";
+    kb-mode-next: "Alt+l";
+    kb-row-up: "Up,Alt+k";
+    kb-row-down: "Down,Alt+j";
+    kb-cancel: "Escape,Control+c";
+}
+
+/*@theme "~/.config/rofi/material-ocean.rasi"*/
+@theme "~/.config/rofiApps/Themes/gruvbox/gruvbox-dark.rasi"
